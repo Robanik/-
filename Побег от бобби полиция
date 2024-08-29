@@ -146,15 +146,20 @@ end)
 
 -- Кнопка
 Section:NewButton("телепорт 3 часть", "ButtonInfo", function() 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").ElevatorSpawn.Elevator.go.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").EpicDoor.RespawnButtons.elevatorspawn.clickbox.CFrame
 end)
 
 -- Кнопка
 Section:NewButton("телепорт 4 часть", "ButtonInfo", function() 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Telephonedoor.door.Union.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").LocalObjects.BazookaSpawn.go.CFrame
 end)
 
 -- Кнопка
 Section:NewButton("телепорт 5 часть", "ButtonInfo", function() 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").LocalObjects.Valves.v1.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").EpicDoor.RespawnButtons.metalspawn.clickbox.CFrame
+end)
+
+-- Кнопка
+Section:NewButton("телепорт 6 часть (финал)", "ButtonInfo", function() 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").LocalObjects.FinalHelicopter.go.CFrame
 end)
